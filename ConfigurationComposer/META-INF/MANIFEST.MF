@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ConfigurationComposer
+Bundle-SymbolicName: ConfigurationComposer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: configurationcomposer.Activator
+Bundle-ActivationPolicy: lazy
+Import-Package: Environment,
+ agent,
+ controller,
+ globalvariable.services,
+ hostactivator,
+ org.osgi.framework;version="1.3.0",
+ usabilityimprover.service

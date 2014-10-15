@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CollaborationMonitor
+Bundle-SymbolicName: CollaborationMonitor
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: collaborationmonitor.Activator
+Bundle-ActivationPolicy: lazy
+Import-Package: Environment,
+ agent,
+ controller,
+ globalvariable.services,
+ hostactivator,
+ org.osgi.framework;version="1.3.0",
+ userbehaviormodelgenerator.service
+

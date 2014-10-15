@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AdaptReasoner
+Bundle-SymbolicName: AdaptReasoner
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: adaptreasoner.Activator
+Bundle-ActivationPolicy: lazy
+Import-Package: badsymptomchecker.services,
+ org.osgi.framework;version="1.3.0"
